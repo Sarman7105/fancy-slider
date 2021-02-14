@@ -64,6 +64,7 @@ const selectItem = (event, img) => {
     
     sliders.push(img);
   } else {
+    sliders.splice(item, 1);
     element.classList.remove('added');
   }
   // console.log(sliders);

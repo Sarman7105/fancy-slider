@@ -91,7 +91,7 @@ const createSlider = () => {
   // console.log(document.getElementById('duration').val);
   let duration = document.getElementById('duration').value || 1000;
   if (duration < 0) {
-    alert("duration can't be negative");
+    alert("duration can't be negative default time 1000ms is assigned");
     duration = 1000;
   }
   // const duration = 1000;

@@ -152,3 +152,6 @@ searchForm.addEventListener('keypress', function (e) {
     searchBtn.click();
   }
 })
+document.getElementById('back-button').addEventListener('click', function () {
+  location.reload();
+})
